@@ -8,9 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/nickt/Desktop/GitHub/AtCoder/GraphTemplate.cpp" "C:/Users/nickt/Desktop/GitHub/AtCoder/cmake-build-debug/CMakeFiles/AtCoder.dir/GraphTemplate.cpp.obj"
-  "C:/Users/nickt/Desktop/GitHub/AtCoder/UnionFindTemplate.cpp" "C:/Users/nickt/Desktop/GitHub/AtCoder/cmake-build-debug/CMakeFiles/AtCoder.dir/UnionFindTemplate.cpp.obj"
-  "C:/Users/nickt/Desktop/GitHub/AtCoder/template.cpp" "C:/Users/nickt/Desktop/GitHub/AtCoder/cmake-build-debug/CMakeFiles/AtCoder.dir/template.cpp.obj"
+  "C:/Users/nickt/Desktop/GitHub/AtCoder/ABC237/A.cpp" "C:/Users/nickt/Desktop/GitHub/AtCoder/cmake-build-debug/CMakeFiles/AtCoder.dir/ABC237/A.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

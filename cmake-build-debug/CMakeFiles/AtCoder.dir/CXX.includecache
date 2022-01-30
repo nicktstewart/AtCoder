@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/nickt/Desktop/GitHub/AtCoder/ABC237/A.cpp
+iostream
+-
+bitset
+-
+vector
+-
+algorithm
+-
+string
+-
+map
+-
+unordered_map
+-
+cmath
+-
+set
+-
+unordered_set
+-
+stack
+-
+queue
+-
+deque
+-
+tuple
+-
+

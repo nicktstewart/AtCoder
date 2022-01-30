@@ -118,77 +118,29 @@ AtCoder\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\build
 .PHONY : AtCoder\fast
 
-GraphTemplate.obj: GraphTemplate.cpp.obj
-.PHONY : GraphTemplate.obj
+ABC237\A.obj: ABC237\A.cpp.obj
+.PHONY : ABC237\A.obj
 
 # target to build an object file
-GraphTemplate.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\GraphTemplate.cpp.obj
-.PHONY : GraphTemplate.cpp.obj
+ABC237\A.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\ABC237\A.cpp.obj
+.PHONY : ABC237\A.cpp.obj
 
-GraphTemplate.i: GraphTemplate.cpp.i
-.PHONY : GraphTemplate.i
-
-# target to preprocess a source file
-GraphTemplate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\GraphTemplate.cpp.i
-.PHONY : GraphTemplate.cpp.i
-
-GraphTemplate.s: GraphTemplate.cpp.s
-.PHONY : GraphTemplate.s
-
-# target to generate assembly for a file
-GraphTemplate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\GraphTemplate.cpp.s
-.PHONY : GraphTemplate.cpp.s
-
-UnionFindTemplate.obj: UnionFindTemplate.cpp.obj
-.PHONY : UnionFindTemplate.obj
-
-# target to build an object file
-UnionFindTemplate.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\UnionFindTemplate.cpp.obj
-.PHONY : UnionFindTemplate.cpp.obj
-
-UnionFindTemplate.i: UnionFindTemplate.cpp.i
-.PHONY : UnionFindTemplate.i
+ABC237\A.i: ABC237\A.cpp.i
+.PHONY : ABC237\A.i
 
 # target to preprocess a source file
-UnionFindTemplate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\UnionFindTemplate.cpp.i
-.PHONY : UnionFindTemplate.cpp.i
+ABC237\A.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\ABC237\A.cpp.i
+.PHONY : ABC237\A.cpp.i
 
-UnionFindTemplate.s: UnionFindTemplate.cpp.s
-.PHONY : UnionFindTemplate.s
-
-# target to generate assembly for a file
-UnionFindTemplate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\UnionFindTemplate.cpp.s
-.PHONY : UnionFindTemplate.cpp.s
-
-template.obj: template.cpp.obj
-.PHONY : template.obj
-
-# target to build an object file
-template.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\template.cpp.obj
-.PHONY : template.cpp.obj
-
-template.i: template.cpp.i
-.PHONY : template.i
-
-# target to preprocess a source file
-template.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\template.cpp.i
-.PHONY : template.cpp.i
-
-template.s: template.cpp.s
-.PHONY : template.s
+ABC237\A.s: ABC237\A.cpp.s
+.PHONY : ABC237\A.s
 
 # target to generate assembly for a file
-template.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\template.cpp.s
-.PHONY : template.cpp.s
+ABC237\A.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\ABC237\A.cpp.s
+.PHONY : ABC237\A.cpp.s
 
 # Help Target
 help:
@@ -199,15 +151,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AtCoder
-	@echo ... GraphTemplate.obj
-	@echo ... GraphTemplate.i
-	@echo ... GraphTemplate.s
-	@echo ... UnionFindTemplate.obj
-	@echo ... UnionFindTemplate.i
-	@echo ... UnionFindTemplate.s
-	@echo ... template.obj
-	@echo ... template.i
-	@echo ... template.s
+	@echo ... ABC237/A.obj
+	@echo ... ABC237/A.i
+	@echo ... ABC237/A.s
 .PHONY : help
 
 

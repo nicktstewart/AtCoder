@@ -80,13 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/nickt/Desktop/GitHub/AtCoder/GraphTemplate.cpp">
-			<Option target="AtCoder"/>
-		</Unit>
-		<Unit filename="C:/Users/nickt/Desktop/GitHub/AtCoder/UnionFindTemplate.cpp">
-			<Option target="AtCoder"/>
-		</Unit>
-		<Unit filename="C:/Users/nickt/Desktop/GitHub/AtCoder/template.cpp">
+		<Unit filename="C:/Users/nickt/Desktop/GitHub/AtCoder/ABC237/A.cpp">
 			<Option target="AtCoder"/>
 		</Unit>
 		<Unit filename="C:/Users/nickt/Desktop/GitHub/AtCoder/CMakeLists.txt">
