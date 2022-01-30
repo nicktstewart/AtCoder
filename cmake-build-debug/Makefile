@@ -118,29 +118,29 @@ AtCoder\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\build
 .PHONY : AtCoder\fast
 
-Practice\ABC174-A.obj: Practice\ABC174-A.cpp.obj
-.PHONY : Practice\ABC174-A.obj
+Practice\ABC174-B.obj: Practice\ABC174-B.cpp.obj
+.PHONY : Practice\ABC174-B.obj
 
 # target to build an object file
-Practice\ABC174-A.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\Practice\ABC174-A.cpp.obj
-.PHONY : Practice\ABC174-A.cpp.obj
+Practice\ABC174-B.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\Practice\ABC174-B.cpp.obj
+.PHONY : Practice\ABC174-B.cpp.obj
 
-Practice\ABC174-A.i: Practice\ABC174-A.cpp.i
-.PHONY : Practice\ABC174-A.i
+Practice\ABC174-B.i: Practice\ABC174-B.cpp.i
+.PHONY : Practice\ABC174-B.i
 
 # target to preprocess a source file
-Practice\ABC174-A.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\Practice\ABC174-A.cpp.i
-.PHONY : Practice\ABC174-A.cpp.i
+Practice\ABC174-B.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\Practice\ABC174-B.cpp.i
+.PHONY : Practice\ABC174-B.cpp.i
 
-Practice\ABC174-A.s: Practice\ABC174-A.cpp.s
-.PHONY : Practice\ABC174-A.s
+Practice\ABC174-B.s: Practice\ABC174-B.cpp.s
+.PHONY : Practice\ABC174-B.s
 
 # target to generate assembly for a file
-Practice\ABC174-A.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\Practice\ABC174-A.cpp.s
-.PHONY : Practice\ABC174-A.cpp.s
+Practice\ABC174-B.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\Practice\ABC174-B.cpp.s
+.PHONY : Practice\ABC174-B.cpp.s
 
 # Help Target
 help:
@@ -151,9 +151,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AtCoder
-	@echo ... Practice/ABC174-A.obj
-	@echo ... Practice/ABC174-A.i
-	@echo ... Practice/ABC174-A.s
+	@echo ... Practice/ABC174-B.obj
+	@echo ... Practice/ABC174-B.i
+	@echo ... Practice/ABC174-B.s
 .PHONY : help
 
 

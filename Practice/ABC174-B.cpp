@@ -46,13 +46,17 @@ using pii = pair<int, int>;
 ll myceil(ll a,ll b){return (a+(b-1))/b;}
 ll myfloor(ll a,ll b){return a/b;}
 
+
 int main() {
     int n,d;
-    cin >> n;
-    YesNo(n>=30);
+    cin >> n >> d;
+    int counter = 0;
+    int x,y;
+    rep(i,n){
+        cin >> x >> y;
+        double distance = sqrt(pow(x,2) + pow(y,2));
+        if(distance <= d)
+            counter++;
+    }
+    cout << counter << "\n";
 }
-
-
-
-
-

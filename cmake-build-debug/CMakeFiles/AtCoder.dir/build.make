@@ -55,33 +55,33 @@ include CMakeFiles\AtCoder.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\AtCoder.dir\flags.make
 
-CMakeFiles\AtCoder.dir\Practice\ABC174-A.cpp.obj: CMakeFiles\AtCoder.dir\flags.make
-CMakeFiles\AtCoder.dir\Practice\ABC174-A.cpp.obj: ..\Practice\ABC174-A.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\nickt\Desktop\GitHub\AtCoder\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AtCoder.dir/Practice/ABC174-A.cpp.obj"
+CMakeFiles\AtCoder.dir\Practice\ABC174-B.cpp.obj: CMakeFiles\AtCoder.dir\flags.make
+CMakeFiles\AtCoder.dir\Practice\ABC174-B.cpp.obj: ..\Practice\ABC174-B.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\nickt\Desktop\GitHub\AtCoder\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AtCoder.dir/Practice/ABC174-B.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\AtCoder.dir\Practice\ABC174-A.cpp.obj /FdCMakeFiles\AtCoder.dir\ /FS -c C:\Users\nickt\Desktop\GitHub\AtCoder\Practice\ABC174-A.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\AtCoder.dir\Practice\ABC174-B.cpp.obj /FdCMakeFiles\AtCoder.dir\ /FS -c C:\Users\nickt\Desktop\GitHub\AtCoder\Practice\ABC174-B.cpp
 <<
 
-CMakeFiles\AtCoder.dir\Practice\ABC174-A.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AtCoder.dir/Practice/ABC174-A.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\AtCoder.dir\Practice\ABC174-A.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\nickt\Desktop\GitHub\AtCoder\Practice\ABC174-A.cpp
+CMakeFiles\AtCoder.dir\Practice\ABC174-B.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AtCoder.dir/Practice/ABC174-B.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\AtCoder.dir\Practice\ABC174-B.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\nickt\Desktop\GitHub\AtCoder\Practice\ABC174-B.cpp
 <<
 
-CMakeFiles\AtCoder.dir\Practice\ABC174-A.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AtCoder.dir/Practice/ABC174-A.cpp.s"
+CMakeFiles\AtCoder.dir\Practice\ABC174-B.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AtCoder.dir/Practice/ABC174-B.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\AtCoder.dir\Practice\ABC174-A.cpp.s /c C:\Users\nickt\Desktop\GitHub\AtCoder\Practice\ABC174-A.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\AtCoder.dir\Practice\ABC174-B.cpp.s /c C:\Users\nickt\Desktop\GitHub\AtCoder\Practice\ABC174-B.cpp
 <<
 
 # Object files for target AtCoder
 AtCoder_OBJECTS = \
-"CMakeFiles\AtCoder.dir\Practice\ABC174-A.cpp.obj"
+"CMakeFiles\AtCoder.dir\Practice\ABC174-B.cpp.obj"
 
 # External object files for target AtCoder
 AtCoder_EXTERNAL_OBJECTS =
 
-AtCoder.exe: CMakeFiles\AtCoder.dir\Practice\ABC174-A.cpp.obj
+AtCoder.exe: CMakeFiles\AtCoder.dir\Practice\ABC174-B.cpp.obj
 AtCoder.exe: CMakeFiles\AtCoder.dir\build.make
 AtCoder.exe: CMakeFiles\AtCoder.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\nickt\Desktop\GitHub\AtCoder\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AtCoder.exe"
