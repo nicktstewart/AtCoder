@@ -46,13 +46,51 @@ using pii = pair<int, int>;
 ll myceil(ll a,ll b){return (a+(b-1))/b;}
 ll myfloor(ll a,ll b){return a/b;}
 
-int main() {
-    int n;
-    cin >> n;
-    vi nums(n);
-    reps(i,0,n){
-        cin >> nums[i];
+bool isKaibun(string s){
+    int size = s.size();
+    for(int i=0;i<size/2;i++){
+        if(s[i] != s[size-1-i]){
+            return false;
+        }
     }
+    return true;
+}
+
+int main() {
+    string s;
+    cin >> s;
+    if(isKaibun(s)){
+        cout << "Yes\n";
+        return 0;
+    }
+
+    int af = 0;
+    int ab = 0;
+    for(int i=0;i<s.size();i++){
+        if(s[i] == 'a'){
+            af++;
+        }else{
+            break;
+        }
+    }
+    for(int i=s.size()-1;i>=0;i--){
+        if(s[i] == 'a'){
+            ab++;
+        }else{
+            break;
+        }
+    }
+
+    if(ab > af){
+        string add(ab-af, 'a');
+        s.insert(0,add);
+        if(isKaibun(s)){
+            cout << "Yes\n";
+            return 0;
+        }
+    }
+    cout << "No\n";
+
 }
 
 

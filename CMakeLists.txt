@@ -3,4 +3,4 @@ project(AtCoder)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(AtCoder Practice/ABC174-B.cpp)
+add_executable(AtCoder ABC237/E.cpp)

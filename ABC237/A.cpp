@@ -47,11 +47,13 @@ ll myceil(ll a,ll b){return (a+(b-1))/b;}
 ll myfloor(ll a,ll b){return a/b;}
 
 int main() {
-    int n;
+    long long n;
     cin >> n;
-    vi nums(n);
-    reps(i,0,n){
-        cin >> nums[i];
+
+    if(n < 2147483648 && n * -1 <= 2147483648){
+        cout << "Yes\n";
+    }else{
+        cout << "No\n";
     }
 }
 

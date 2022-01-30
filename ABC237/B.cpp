@@ -47,11 +47,26 @@ ll myceil(ll a,ll b){return (a+(b-1))/b;}
 ll myfloor(ll a,ll b){return a/b;}
 
 int main() {
-    int n;
-    cin >> n;
-    vi nums(n);
-    reps(i,0,n){
-        cin >> nums[i];
+    int h,w;
+    cin >> h >> w;
+    vector<vi> nums;
+    int temp;
+    reps(i,0,h){
+        vi row;
+        rep(j,w){
+            cin >> temp;
+            row.push_back(temp);
+        }
+        nums.push_back(row);
+    }
+
+    reps(i,0,w){
+        rep(j,h){
+            cout << nums[j][i];
+            if(j<h-1)
+                cout << " ";
+        }
+        cout << "\n";
     }
 }
 
