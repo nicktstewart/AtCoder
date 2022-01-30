@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/nickt/Desktop/GitHub/AtCoder/ABC237/A.cpp" "C:/Users/nickt/Desktop/GitHub/AtCoder/cmake-build-debug/CMakeFiles/AtCoder.dir/ABC237/A.cpp.obj"
+  "C:/Users/nickt/Desktop/GitHub/AtCoder/Practice/ABC174-A.cpp" "C:/Users/nickt/Desktop/GitHub/AtCoder/cmake-build-debug/CMakeFiles/AtCoder.dir/Practice/ABC174-A.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

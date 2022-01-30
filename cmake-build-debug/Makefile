@@ -118,29 +118,29 @@ AtCoder\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\build
 .PHONY : AtCoder\fast
 
-ABC237\A.obj: ABC237\A.cpp.obj
-.PHONY : ABC237\A.obj
+Practice\ABC174-A.obj: Practice\ABC174-A.cpp.obj
+.PHONY : Practice\ABC174-A.obj
 
 # target to build an object file
-ABC237\A.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\ABC237\A.cpp.obj
-.PHONY : ABC237\A.cpp.obj
+Practice\ABC174-A.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\Practice\ABC174-A.cpp.obj
+.PHONY : Practice\ABC174-A.cpp.obj
 
-ABC237\A.i: ABC237\A.cpp.i
-.PHONY : ABC237\A.i
+Practice\ABC174-A.i: Practice\ABC174-A.cpp.i
+.PHONY : Practice\ABC174-A.i
 
 # target to preprocess a source file
-ABC237\A.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\ABC237\A.cpp.i
-.PHONY : ABC237\A.cpp.i
+Practice\ABC174-A.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\Practice\ABC174-A.cpp.i
+.PHONY : Practice\ABC174-A.cpp.i
 
-ABC237\A.s: ABC237\A.cpp.s
-.PHONY : ABC237\A.s
+Practice\ABC174-A.s: Practice\ABC174-A.cpp.s
+.PHONY : Practice\ABC174-A.s
 
 # target to generate assembly for a file
-ABC237\A.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\ABC237\A.cpp.s
-.PHONY : ABC237\A.cpp.s
+Practice\ABC174-A.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\Practice\ABC174-A.cpp.s
+.PHONY : Practice\ABC174-A.cpp.s
 
 # Help Target
 help:
@@ -151,9 +151,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AtCoder
-	@echo ... ABC237/A.obj
-	@echo ... ABC237/A.i
-	@echo ... ABC237/A.s
+	@echo ... Practice/ABC174-A.obj
+	@echo ... Practice/ABC174-A.i
+	@echo ... Practice/ABC174-A.s
 .PHONY : help
 
 
