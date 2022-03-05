@@ -47,12 +47,13 @@ ll myceil(ll a,ll b){return (a+(b-1))/b;}
 ll myfloor(ll a,ll b){return a/b;}
 
 int main() {
-    int n;
-    cin >> n;
+    int n,m;
+    cin >> n >> m;
     vi nums(n);
     reps(i,0,n){
         cin >> nums[i];
     }
+
 }
 
 
