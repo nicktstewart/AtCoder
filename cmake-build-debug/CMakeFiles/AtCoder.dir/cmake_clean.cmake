@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "AtCoder.exe.manifest"
   "AtCoder.lib"
   "AtCoder.pdb"
-  "CMakeFiles/AtCoder.dir/ABC242/C.cpp.obj"
+  "CMakeFiles/AtCoder.dir/ABC246/C.cpp.obj"
 )
 
 # Per-language clean rules from dependency scanning.

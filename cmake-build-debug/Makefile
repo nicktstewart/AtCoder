@@ -118,29 +118,29 @@ AtCoder\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\build
 .PHONY : AtCoder\fast
 
-ABC242\C.obj: ABC242\C.cpp.obj
-.PHONY : ABC242\C.obj
+ABC246\C.obj: ABC246\C.cpp.obj
+.PHONY : ABC246\C.obj
 
 # target to build an object file
-ABC242\C.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\ABC242\C.cpp.obj
-.PHONY : ABC242\C.cpp.obj
+ABC246\C.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\ABC246\C.cpp.obj
+.PHONY : ABC246\C.cpp.obj
 
-ABC242\C.i: ABC242\C.cpp.i
-.PHONY : ABC242\C.i
+ABC246\C.i: ABC246\C.cpp.i
+.PHONY : ABC246\C.i
 
 # target to preprocess a source file
-ABC242\C.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\ABC242\C.cpp.i
-.PHONY : ABC242\C.cpp.i
+ABC246\C.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\ABC246\C.cpp.i
+.PHONY : ABC246\C.cpp.i
 
-ABC242\C.s: ABC242\C.cpp.s
-.PHONY : ABC242\C.s
+ABC246\C.s: ABC246\C.cpp.s
+.PHONY : ABC246\C.s
 
 # target to generate assembly for a file
-ABC242\C.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\ABC242\C.cpp.s
-.PHONY : ABC242\C.cpp.s
+ABC246\C.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtCoder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AtCoder.dir\ABC246\C.cpp.s
+.PHONY : ABC246\C.cpp.s
 
 # Help Target
 help:
@@ -151,9 +151,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AtCoder
-	@echo ... ABC242/C.obj
-	@echo ... ABC242/C.i
-	@echo ... ABC242/C.s
+	@echo ... ABC246/C.obj
+	@echo ... ABC246/C.i
+	@echo ... ABC246/C.s
 .PHONY : help
 
 

@@ -55,33 +55,33 @@ include CMakeFiles\AtCoder.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\AtCoder.dir\flags.make
 
-CMakeFiles\AtCoder.dir\ABC242\C.cpp.obj: CMakeFiles\AtCoder.dir\flags.make
-CMakeFiles\AtCoder.dir\ABC242\C.cpp.obj: ..\ABC242\C.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\nickt\Desktop\GitHub\AtCoder\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AtCoder.dir/ABC242/C.cpp.obj"
+CMakeFiles\AtCoder.dir\ABC246\C.cpp.obj: CMakeFiles\AtCoder.dir\flags.make
+CMakeFiles\AtCoder.dir\ABC246\C.cpp.obj: ..\ABC246\C.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\nickt\Desktop\GitHub\AtCoder\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AtCoder.dir/ABC246/C.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\AtCoder.dir\ABC242\C.cpp.obj /FdCMakeFiles\AtCoder.dir\ /FS -c C:\Users\nickt\Desktop\GitHub\AtCoder\ABC242\C.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\AtCoder.dir\ABC246\C.cpp.obj /FdCMakeFiles\AtCoder.dir\ /FS -c C:\Users\nickt\Desktop\GitHub\AtCoder\ABC246\C.cpp
 <<
 
-CMakeFiles\AtCoder.dir\ABC242\C.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AtCoder.dir/ABC242/C.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\AtCoder.dir\ABC242\C.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\nickt\Desktop\GitHub\AtCoder\ABC242\C.cpp
+CMakeFiles\AtCoder.dir\ABC246\C.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AtCoder.dir/ABC246/C.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\AtCoder.dir\ABC246\C.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\nickt\Desktop\GitHub\AtCoder\ABC246\C.cpp
 <<
 
-CMakeFiles\AtCoder.dir\ABC242\C.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AtCoder.dir/ABC242/C.cpp.s"
+CMakeFiles\AtCoder.dir\ABC246\C.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AtCoder.dir/ABC246/C.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\AtCoder.dir\ABC242\C.cpp.s /c C:\Users\nickt\Desktop\GitHub\AtCoder\ABC242\C.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\AtCoder.dir\ABC246\C.cpp.s /c C:\Users\nickt\Desktop\GitHub\AtCoder\ABC246\C.cpp
 <<
 
 # Object files for target AtCoder
 AtCoder_OBJECTS = \
-"CMakeFiles\AtCoder.dir\ABC242\C.cpp.obj"
+"CMakeFiles\AtCoder.dir\ABC246\C.cpp.obj"
 
 # External object files for target AtCoder
 AtCoder_EXTERNAL_OBJECTS =
 
-AtCoder.exe: CMakeFiles\AtCoder.dir\ABC242\C.cpp.obj
+AtCoder.exe: CMakeFiles\AtCoder.dir\ABC246\C.cpp.obj
 AtCoder.exe: CMakeFiles\AtCoder.dir\build.make
 AtCoder.exe: CMakeFiles\AtCoder.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\nickt\Desktop\GitHub\AtCoder\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AtCoder.exe"
